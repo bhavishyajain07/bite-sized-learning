@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Environment & secrets — NEVER commit these
+.env
+.streamlit/secrets.toml
+
+# Local data we don't want in the repo
+courses/
+last_failed_response.txt
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
